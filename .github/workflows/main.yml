@@ -2,16 +2,22 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    # Executa a cada 12 horas
-    - cron: "0 */12 * * *"
+    # Executa a cada 24 horas
+    - cron: "0 */24 * * *"
   
   # Permite rodar a action manualmente na aba "Actions"
   workflow_dispatch:
 
+    # run on every push on the master branch
+  push:
+    branches:
+    - master
+    
 jobs:
   build:
     name: Jobs to update datas
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     
     # PERMISSÃO NECESSÁRIA: Permite que o bot comite o arquivo gerado
     permissions:
@@ -19,7 +25,7 @@ jobs:
 
     steps:
       # Gera a animação da cobrinha
-      - uses: Platane/snk@v3
+      - uses: Platane/snk/svg-only@v3
         id: snake-gif
         with:
           github_user_name: MachadoCodes
