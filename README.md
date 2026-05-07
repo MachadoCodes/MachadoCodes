@@ -27,7 +27,7 @@
 </p>
 
 <p align="right">
-  "Any sufficiently advanced technology is indistinguishable from magic."
+  <i>"Any sufficiently advanced technology is indistinguishable from magic."</i> 
 </p>
 
 <p align="right">
@@ -76,7 +76,7 @@
   />
   
   <img 
-    width="91%"
+    width="84%"
     alt="github profile contributions chart"
     src="https://raw.githubusercontent.com/MachadoCodes/MachadoCodes/main/profile-3d-contrib/profile-night-rainbow.svg"
   />  
@@ -126,4 +126,19 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 https://github.com/rzashakeri/beautify-github-profile
+
+"I work with the things you can't see, to make sure the things you can see don't crash."
+
+"I’m here to tell you that, yes, I did check the cables, and no, that is not why it’s broken."
+
+"I’m the reason your password has to be 16 characters long (including uppercase and lowercase letters, a symbol, and numbers) and cannot match your last 5,000 passwords."
+
+"Even the wisest cannot see all ends... especially in this legacy spaghetti code."
+
+"A tech wizard is never late, nor is he early. He merges precisely when he means to."
+
+"All we have to decide is what to do with the time that is given to us...and whether to use Jira or Trello."
+
+"Run, you fools! The build is failing!"
+
 -->
